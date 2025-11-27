@@ -1,6 +1,6 @@
 <template>
   <UContainer class="py-20 flex flex-col items-center gap-10">
-    <HeroTitle name="Marzieh" text="rfgrgrfg"/>
+    <HeroTitle :name="aboutMe.name" :text="aboutMe.text"/>
 
 
 
@@ -10,5 +10,8 @@
 
 <script setup>
 
-// Nothing needed here
+const aboutMe = {
+  name :'Marzieh',
+  text: $t('aboutme.text')
+}
 </script>

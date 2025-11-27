@@ -1,0 +1,8 @@
+{
+  "home": "Heim",
+  "project": "Projekt",
+  "contact": "Kontakt",
+  "aboutme": {
+    "text": "Ich bin Frontend-Entwicklerin mit 6 Jahren Erfahrung in der Entwicklung schneller, sauberer und skalierbarer Webanwendungen. Meine Expertise umfasst Angular, React und Vue. Ich habe an Projekten mit mehr als 500.000 Nutzern gearbeitet und sichere, leistungsstarke und nutzerorientierte Interfaces geliefert.\n\nIch liebe es, komplexe Anforderungen in intuitive und responsive UI-Systeme zu übersetzen und arbeite gerne in modernen Frontend-Ökosystemen – TypeScript, State-Management, Testing, Micro-Frontends und Clean Architecture. In den letzten Jahren habe ich Legacy-Codebases verbessert, große Angular-Projekte nach Vue migriert und die Performance sowie Developer-Workflows deutlich optimiert.\n\nBevor ich vollständig in die Frontend-Entwicklung eingestiegen bin, habe ich im IT-Infrastrukturbereich gearbeitet. Dadurch habe ich ein starkes Verständnis für Systeme, Netzwerke und Cloud-Umgebungen – Fähigkeiten, die die Zusammenarbeit mit anderen Teams erleichtern und robustere Webanwendungen ermöglichen.\n\nIch lege großen Wert auf hochwertigen Code, großartige User Experience und kontinuierliches Lernen, und ich unterstütze gerne andere Entwickler:innen auf ihrem Weg.\n"
+  }
+}
