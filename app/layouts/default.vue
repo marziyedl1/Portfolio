@@ -7,8 +7,12 @@ const navLinks: NavigationMenuItem[] = [
     to: '/',
   },
   {
+    label: $t('about'),
+    to: '/aboutme',
+  },
+  {
     label: $t('project'),
-    to: '/project',
+    to: '/projects',
   },
   {
     label: $t('contact'),

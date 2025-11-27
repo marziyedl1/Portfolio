@@ -3,6 +3,7 @@
   "project": "Project",
   "contact": "Contact",
   "aboutme": {
-    "text": "I’m a Frontend Developer with 6 years of experience building fast, clean, and scalable web applications. My expertise spans Angular, React, and Vue, and I’ve worked on projects with more than 500k users, delivering secure, high-performance, and user-focused interfaces.\n\nI love turning complex ideas into intuitive, responsive UI systems and enjoy working in modern frontend ecosystems—TypeScript, state management, testing, micro-frontends, and clean architecture. Over the years, I’ve improved legacy codebases, migrated large Angular projects to Vue, and significantly optimized performance and developer workflows.\n\nBefore transitioning fully into frontend engineering, I worked in IT infrastructure, which gives me a strong understanding of systems, networking, and cloud environments—skills that help me collaborate effectively across teams and build more robust web applications.\n\nI’m passionate about high-quality code, great UX, and continuous learning, and I enjoy mentoring other developers on their journey."
-  }
+    "text": "You meet Marzieh, a Frontend Engineer with 6 years of experience turning ideas into fast, clean, and user-friendly web apps. She works mainly with Angular, Vue, and React, and she loves building interfaces that look good and feel good to use.\n\nShe has worked in both startups and larger companies across different industries—from fintech to consulting and B2B platforms. Along the way, she helped modernize legacy codebases, improve performance, and ship products used by hundreds of thousands of people.\n\nThis website is a simple static version for now, but she’s currently learning backend development so she can turn it into a fully dynamic web app in the next release."
+  },
+  "about": "About me"
 }
