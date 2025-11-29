@@ -1,9 +1,26 @@
 {
   "home": "Heim",
   "project": "Projekt",
-  "contact": "Kontakt",
   "aboutme": {
-    "text": "Lerne Marzieh kennen – eine Frontend-Entwicklerin mit 6 Jahren Erfahrung darin, Ideen in schnelle, saubere und benutzerfreundliche Webanwendungen zu verwandeln. Sie arbeitet hauptsächlich mit Angular, Vue und React und liebt es, Interfaces zu bauen, die gut aussehen und sich noch besser anfühlen.\n\nSie hat sowohl in Startups als auch in größeren Unternehmen gearbeitet – in unterschiedlichen Branchen wie Fintech, Consulting und B2B-Plattformen. Auf diesem Weg hat sie Legacy-Code modernisiert, Performance verbessert und Produkte mitentwickelt, die von Hunderttausenden Nutzer*innen verwendet werden.\n\nDiese Website ist aktuell noch eine statische Version, aber sie lernt gerade Backend-Entwicklung, um die nächste Version zu einer vollständig dynamischen Webanwendung zu machen."
+    "text": "Lerne Marzieh kennen – eine Frontend-Entwicklerin mit 6 Jahren Erfahrung darin, Ideen in schnelle, saubere und benutzerfreundliche Webanwendungen zu verwandeln. Sie arbeitet hauptsächlich mit Angular, Vue und React und liebt es, Interfaces zu bauen, die gut aussehen und sich noch besser anfühlen.\n\nSie hat sowohl in Startups als auch in größeren Unternehmen gearbeitet – in unterschiedlichen Branchen wie Fintech, Consulting und B2B-Plattformen. Auf diesem Weg hat sie Legacy-Code modernisiert, Performance verbessert und Produkte mitentwickelt, die von Hunderttausenden Nutzer*innen verwendet werden.\n\nDiese Website ist aktuell noch eine statische Version, aber sie lernt gerade Backend-Entwicklung, um die nächste Version zu einer vollständig dynamischen Webanwendung zu machen.",
+    "title": "Über mich",
+    "intro": "Hallo, ich bin Marzieh Dolati, eine Frontend-Entwicklerin aus Braunschweig, Deutschland, mit 6 Jahren Erfahrung in der Entwicklung moderner, skalierbarer und leistungsstarker Webanwendungen.",
+    "skills": "Ich bin spezialisiert auf Angular, Vue und React und liebe es, komplexe Probleme in saubere, zuverlässige und benutzerfreundliche Interfaces zu verwandeln.",
+    "experience": "Ich habe an Fintech-Plattformen, B2B-Dashboards, großen Suchsystemen und React/Next.js-Anwendungen gearbeitet. Meine Arbeit unterstützte Plattformen mit über 500.000 Nutzern, optimierte Legacy-Projekte und verbesserte die Performance durch moderne Frontend-Architektur.",
+    "tech": "Meine Stärken liegen in TypeScript, State-Management (NgRx, Redux, TanStack Query), Testing, Komponentenbibliotheken, CI/CD und dem Aufbau skalierbarer Systeme.",
+    "migration": "Ich habe Angular 11 auf 15 migriert, Vue 3 mit Vite integriert, SSR-Anwendungen mit Next.js erstellt und komplexe Codebasen in modulare, wartbare Strukturen umgewandelt.",
+    "soft": "Ich lege großen Wert auf Kommunikation, Zusammenarbeit und Clean-Code-Prinzipien und arbeite gerne eng mit cross-funktionalen Teams zusammen.",
+    "background": "Ich komme ursprünglich aus dem Iran, habe einen Bachelor-Abschluss in Software Engineering und spreche Englisch, Deutsch, Persisch und ein wenig Türkisch.",
+    "closing": "Jeden Tag möchte ich lernen, bauen und bedeutungsvolle digitale Erlebnisse schaffen."
   },
-  "about": "Über mich"
+  "about": "Über mich",
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Du kannst mich jederzeit per E-Mail oder über soziale Netzwerke erreichen.",
+    "location": "Mit Sitz in Deutschland"
+  },
+  "download_resume": "Lebenslauf als PDF herunterladen",
+  "all_right_reserved": "Alle Rechte vorbehalten.",
+  "vist_my_linkedin": "Besuchen Sie mein Linkedin",
+  "vist_my_github": "Besuchen Sie meinen Github"
 }

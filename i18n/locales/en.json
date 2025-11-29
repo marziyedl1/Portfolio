@@ -1,9 +1,26 @@
 {
   "home": "Home",
   "project": "Project",
-  "contact": "Contact",
   "aboutme": {
-    "text": "You meet Marzieh, a Frontend Engineer with 6 years of experience turning ideas into fast, clean, and user-friendly web apps. She works mainly with Angular, Vue, and React, and she loves building interfaces that look good and feel good to use.\n\nShe has worked in both startups and larger companies across different industries—from fintech to consulting and B2B platforms. Along the way, she helped modernize legacy codebases, improve performance, and ship products used by hundreds of thousands of people.\n\nThis website is a simple static version for now, but she’s currently learning backend development so she can turn it into a fully dynamic web app in the next release."
+    "text": "You meet Marzieh, a Frontend Engineer with 6 years of experience turning ideas into fast, clean, and user-friendly web apps. She works mainly with Angular, Vue, and React, and she loves building interfaces that look good and feel good to use.\n\nShe has worked in both startups and larger companies across different industries—from fintech to consulting and B2B platforms. Along the way, she helped modernize legacy codebases, improve performance, and ship products used by hundreds of thousands of people.\n\nThis website is a simple static version for now, but she’s currently learning backend development so she can turn it into a fully dynamic web app in the next release.",
+    "title": "About Me",
+    "intro": "Hi, I’m Marzieh Dolati, a Frontend Developer based in Braunschweig, Germany, with 6 years of experience building modern, scalable, and high-performance web applications.",
+    "skills": "I specialize in Angular, Vue, and React, and I enjoy transforming complex problems into clean, reliable, and user-friendly interfaces.",
+    "experience": "I’ve contributed to fintech platforms, B2B dashboards, large search systems, and React/Next.js applications. I have worked on applications serving more than 500k users, optimized legacy projects, and improved performance through modern frontend architecture.",
+    "tech": "My strengths include TypeScript, state management (NgRx, Redux, TanStack Query), testing, component libraries, CI/CD, and building systems that scale.",
+    "migration": "I have migrated Angular 11 to 15, integrated Vue 3 with Vite, built SSR apps with Next.js, and refactored complex codebases into modular, maintainable structures.",
+    "soft": "I value communication, collaboration, clean code principles, and enjoy working closely with cross-functional teams.",
+    "background": "Originally from Iran, I hold a Bachelor’s degree in Software Engineering and speak English, German, Persian, and a bit of Turkish.",
+    "closing": "Every day, I aim to learn, build, and create meaningful digital experiences."
   },
-  "about": "About me"
+  "about": "About me",
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "You can always reach me through email or social platforms.",
+    "location": "Based in Germany"
+  },
+  "download_resume": " Download Resume in pdf",
+  "all_right_reserved": "All rights reserved.",
+  "vist_my_linkedin": "Visit my Linkedin",
+  "vist_my_github": "Visit my github"
 }
