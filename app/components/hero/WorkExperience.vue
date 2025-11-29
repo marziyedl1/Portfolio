@@ -17,19 +17,14 @@ const props = defineProps<Props>();
   <div
     class="w-1/4 h-100 max-w-sm p-6 rounded-xl border border-gray-700 shadow-lg"
   >
-    <!-- Title -->
     <h2 class="text-xl font-semibold mb-1">{{ title }}</h2>
 
-    <!-- Role -->
     <p class="text-sm text-gray-400 mb-4">{{ role }}</p>
 
-
-    <!-- Description -->
     <p class="text-sm  leading-relaxed mb-4">
       {{ description }}
     </p>
 
-    <!-- Tech tags -->
     <div class="flex flex-wrap gap-2 mt-2">
       <span
         v-for="badge in badges"
