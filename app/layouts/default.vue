@@ -8,15 +8,15 @@ const navLinks: NavigationMenuItem[] = [
   },
   {
     label: $t('about'),
-    to: '/aboutme',
+    to: 'aboutme',
   },
   {
     label: $t('project'),
-    to: '/projects',
+    to: 'projects',
   },
   {
     label: $t('contact'),
-    to: '/contact',
+    to: 'contact',
   },
 ]
 </script>
