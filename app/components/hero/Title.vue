@@ -7,7 +7,7 @@
            bg-clip-text text-transparent bg-[length:200%_200%] 
            animate-gradient"
   >
-    {{ name }}
+    {{ myName }}
   </h1>
     <p class="text-left max-w-xl mx-auto text-lg opacity-80">
       {{ text }}
@@ -17,7 +17,7 @@
 
 <script setup lang="ts">
 defineProps<{
-  name: string,
+  myName: string,
   text:string
 }>()
 </script>

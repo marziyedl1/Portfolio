@@ -1,14 +1,13 @@
 <template>
   <UContainer class="py-20 flex flex-col items-center gap-10">
-    <HeroTitle :name="aboutMe.name" :text="aboutMe.text" />
+    <HeroTitle :my-name="aboutMe.name" :text="aboutMe.text" />
 
-    <ResumeDownload />
+    <HeroResumeDownload />
 
   </UContainer>
 </template>
 
-<script setup>
-import { HeroTitle, ResumeDownload } from '~/components/hero'
+<script setup lang="ts">
 
 const aboutMe = {
   name: 'Marzieh',

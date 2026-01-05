@@ -1,3 +1,22 @@
+
+
+<template>
+  <ClientOnly>
+    <UButton
+      :aria-label="`Switch to ${nextTheme} mode`"
+      :icon="`i-lucide-${nextTheme === 'dark' ? 'sun' : 'moon'}`"
+      color="neutral"
+      variant="ghost"
+      size="sm"
+      class="rounded-full"
+      @click="startViewTransition"
+    />
+    <template #fallback>
+      <div class="size-4" />
+    </template>
+  </ClientOnly>
+</template>
+
 <script setup lang="ts">
 const colorMode = useColorMode()
 
@@ -43,24 +62,7 @@ const startViewTransition = (event: MouseEvent) => {
 }
 </script>
 
-<template>
-  <ClientOnly>
-    <UButton
-      :aria-label="`Switch to ${nextTheme} mode`"
-      :icon="`i-lucide-${nextTheme === 'dark' ? 'sun' : 'moon'}`"
-      color="neutral"
-      variant="ghost"
-      size="sm"
-      class="rounded-full"
-      @click="startViewTransition"
-    />
-    <template #fallback>
-      <div class="size-4" />
-    </template>
-  </ClientOnly>
-</template>
-
-<style>
+<style scoped>
 ::view-transition-old(root),
 ::view-transition-new(root) {
   animation: none;

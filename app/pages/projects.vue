@@ -4,7 +4,7 @@
       <UContainer
         class="py-20 flex items-center justify-center flex-wrap gap-4"
       >
-        <WorkExperience
+        <HeroWorkExperience
           v-for="project in companiesProject"
           :title="project.title"
           :role="project.role"
@@ -18,7 +18,7 @@
       <UContainer
         class="py-20 flex items-center justify-center flex-wrap gap-4"
       >
-        <WorkExperience
+        <HeroWorkExperience
           v-for="project in gitProjects"
           :title="project.title"
           :role="project.role"
@@ -30,9 +30,9 @@
   </UTabs>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { companiesProject, gitProjects } from '~/assets/data/projects';
-import WorkExperience from '~/components/hero/WorkExperience.vue'
+
 const items = [
   {
     label: 'Companies',

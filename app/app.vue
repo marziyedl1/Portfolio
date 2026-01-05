@@ -1,3 +1,15 @@
+<template>
+  <UApp>
+    <NuxtLayout>
+      <UMain class="relative">
+        <NuxtPage />
+      </UMain>
+    </NuxtLayout>
+
+
+  </UApp>
+</template>
+
 <script setup lang="ts">
 const colorMode = useColorMode()
 
@@ -42,15 +54,3 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
   })
 ])
 </script>
-
-<template>
-  <UApp>
-    <NuxtLayout>
-      <UMain class="relative">
-        <NuxtPage />
-      </UMain>
-    </NuxtLayout>
-
-
-  </UApp>
-</template>

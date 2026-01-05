@@ -1,17 +1,4 @@
-<script setup lang="ts">
-interface Badge {
-  label: string;
-}
 
-interface Props {
-  title: string;
-  role: string;
-  description: string;
-  badges: Badge[];
-}
-
-const props = defineProps<Props>();
-</script>
 
 <template>
   <div
@@ -37,5 +24,17 @@ const props = defineProps<Props>();
   </div>
 </template>
 
-<style scoped>
-</style>
+<script setup lang="ts">
+interface Badge {
+  label: string;
+}
+
+interface Props {
+  title: string;
+  role: string;
+  description: string;
+  badges: Badge[];
+}
+
+const props = defineProps<Props>();
+</script>
