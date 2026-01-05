@@ -3,7 +3,7 @@
 <div class="snow-layer-1"></div>
 <div class="snow-layer-2"></div>
     <img
-      src="../assets/img/profile.jpg"
+      src="@/assets/img/profile.jpg"
       width="200"
       class="h-auto max-w-lg transition-all duration-300 rounded cursor-pointer filter grayscale hover:grayscale-0 z-2"
     />
