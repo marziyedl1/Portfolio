@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { companiesProject, gitProjects } from '@/assets/data/projects'
+import { companiesProject, gitProjects } from '@/config/consts'
 
 const items = [
   {

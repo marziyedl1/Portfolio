@@ -27,16 +27,7 @@
 </template>
 
 <script setup lang="ts">
-interface Badge {
-  label: string
-}
+import type { ProjectType } from '@/types/types'
 
-interface HeroWorkExperienceProps {
-  title: string
-  role: string
-  description: string
-  badges: Badge[]
-}
-
-defineProps<HeroWorkExperienceProps>()
+defineProps<ProjectType>()
 </script>
