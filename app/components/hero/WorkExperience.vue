@@ -27,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-import type { ProjectType } from '@/types/types'
+import type { ProjectType } from '@/types'
 
 defineProps<ProjectType>()
 </script>

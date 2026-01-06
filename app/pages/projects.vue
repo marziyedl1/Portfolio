@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { companiesProject, gitProjects } from '@/config/consts'
+const { gitProjects, companiesProject } = useProjects()
 
 const items = [
   {
