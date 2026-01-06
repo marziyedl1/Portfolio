@@ -1,29 +1,13 @@
 <template>
   <UTabs class="mt-8" :items="items" color="neutral">
-    <template #companies>
+    <template v-for="{ slot, projects } in tabContent" :key="slot" #[slot]>
       <UContainer
         class="py-20 flex items-center justify-center flex-wrap gap-4"
       >
         <HeroWorkExperience
-          v-for="project in companiesProject"
-          :title="project.title"
-          :role="project.role"
-          :description="project.description"
-          :badges="project.badges"
-        />
-      </UContainer>
-    </template>
-
-    <template #github>
-      <UContainer
-        class="py-20 flex items-center justify-center flex-wrap gap-4"
-      >
-        <HeroWorkExperience
-          v-for="project in gitProjects"
-          :title="project.title"
-          :role="project.role"
-          :description="project.description"
-          :badges="project.badges"
+          v-for="project in projects"
+          :key="project.title"
+          v-bind="project"
         />
       </UContainer>
     </template>
@@ -31,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { companiesProject, gitProjects } from '@/assets/data/projects';
+import { companiesProject, gitProjects } from '@/assets/data/projects'
 
 const items = [
   {
@@ -46,4 +30,14 @@ const items = [
   },
 ]
 
+const tabContent = [
+  {
+    slot: 'companies',
+    projects: companiesProject,
+  },
+  {
+    slot: 'github',
+    projects: gitProjects,
+  },
+]
 </script>
