@@ -1,14 +1,16 @@
-
-
 <template>
   <div
     class="w-1/4 h-100 max-w-sm p-6 rounded-xl border border-gray-700 shadow-lg"
   >
-    <h2 class="text-xl font-semibold mb-1">{{ title }}</h2>
+    <h2 class="text-xl font-semibold mb-1">
+      {{ title }}
+    </h2>
 
-    <p class="text-sm text-gray-400 mb-4">{{ role }}</p>
+    <p class="text-sm text-gray-400 mb-4">
+      {{ role }}
+    </p>
 
-    <p class="text-sm  leading-relaxed mb-4">
+    <p class="text-sm leading-relaxed mb-4">
       {{ description }}
     </p>
 
@@ -26,15 +28,15 @@
 
 <script setup lang="ts">
 interface Badge {
-  label: string;
+  label: string
 }
 
-interface Props {
-  title: string;
-  role: string;
-  description: string;
-  badges: Badge[];
+interface HeroWorkExperienceProps {
+  title: string
+  role: string
+  description: string
+  badges: Badge[]
 }
 
-const props = defineProps<Props>();
+defineProps<HeroWorkExperienceProps>()
 </script>
