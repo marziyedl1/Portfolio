@@ -16,7 +16,7 @@
           <span>{{ $t('contact.location') }}</span>
         </div>
         <div class="flex justify-center items-center gap-3">
-          <i class="i-heroicons-envelope text-2xl"></i>
+          <i class="i-heroicons-envelope text-2xl" />
           <a href="mailto:marzieh@example.com" class="hover:text-primary">
             marziye.dl@gmail.com
           </a>
@@ -50,7 +50,7 @@
           target="_blank"
           class="hover:text-primary"
         >
-          <i class="i-simple-icons-linkedin"></i>
+          <i class="i-simple-icons-linkedin" />
         </a>
 
         <a
@@ -58,7 +58,7 @@
           target="_blank"
           class="hover:text-primary"
         >
-          <i class="i-simple-icons-telegram"></i>
+          <i class="i-simple-icons-telegram" />
         </a>
       </div>
     </section>

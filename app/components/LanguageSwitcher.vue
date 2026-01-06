@@ -3,10 +3,10 @@
     <UButton
       v-for="loc in locales"
       :key="loc.code"
-      @click="setLocale(loc.code)"
       size="xs"
       variant="ghost"
       :color="loc.code === locale ? 'primary' : 'gray'"
+      @click="setLocale(loc.code)"
     >
       {{ loc.code.toUpperCase() }}
     </UButton>
